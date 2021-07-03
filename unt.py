@@ -306,6 +306,7 @@ while True:
         # ticker = "KRW-BTC"
         print("진행10")
         for ticker in tickers:
+            time.sleep(1) 
             coin_1_m = coin_history(ticker, 'minutes', 1)
 #             print(coin_1_m)
 
@@ -324,6 +325,7 @@ while True:
         print(decrease_top_score_ticker)
         print("진행11")
         for a in balance():
+            time.sleep(1) 
             if a['currency'] == 'KRW':
                 print(a['balance'])
                 buy_amount = float(a['balance'])*0.10
