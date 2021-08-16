@@ -10,6 +10,8 @@ git clone https://github.com/bhyunco/upbit_aws_test.git
 ---------------------------------------------------------
 2) 사전 세팅
 
+[패키지 리스트 업데이트]
+sudo apt update
 
 [pip3 설치]
 sudo apt install python3-pip
