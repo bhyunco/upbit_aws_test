@@ -121,10 +121,13 @@ sudo pip install pyvirtualdisplay
 
 
 from selenium import webdriver
+
 from pyvirtualdisplay import Display
 
 display = Display(visible=0, size=(1920, 1080))
+
 display.start()
 
 path='/home/ubuntu/chromedriver'
+
 driver = webdriver.Chrome(path)
